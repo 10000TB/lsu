@@ -1,0 +1,9 @@
+{
+	"Standards":"IEEE Std 1003.1-2008, Single UNIX Specification (SUS)",
+	"commands":{
+		"admin":{"description":"Create and administer SCCS files", "category":"SCCS", "firstApearance":"PWB UNIX" },
+		"alias":{"description":"Define or display aliases", "category":"Misc", "firstApearance":"" },
+		"ar":{"description":"Create and administer SCCS files", "category":"SCCS", "firstApearance":"PWB UNIX" }
+		"asa":{"description":"Interpret carriage-control characters", "category":"Text processing", "firstApearance":"System V"}
+	}
+}
