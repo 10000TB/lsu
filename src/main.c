@@ -1,15 +1,15 @@
 #include <argp.h>
 #include <stdbool.h>
 
-const char *argp_program_version = "programname programversion";
-const char *argp_program_bug_address = "<your@email.address>";
-static char doc[] = "Your program description.";
+const char *argp_program_version = "lsu 0.1";
+const char *argp_program_bug_address = "<xuehao.hu@gmail.com>";
+static char doc[] = "\nlsu (named after \"list util\") is a linux util that lists and categorizes existing utils on linux machine. Serves as a starting point for discovering installed utils on current box.\n";
 static char args_doc[] = "[FILENAME]...";
 static struct argp_option options[] = { 
 	{ "line", 'l', 0, 0, "Compare lines instead of characters."},
 	{ "word", 'w', 0, 0, "Compare words instead of characters."},
 	{ "nocase", 'i', 0, 0, "Compare case insensitive instead of case sensitive."},
-	{ 0 } 
+	{ 0 }
 };
 
 struct arguments {
